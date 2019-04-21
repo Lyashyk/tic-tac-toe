@@ -1,0 +1,28 @@
+.Button {
+  display: inline-block;
+  margin: 0;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 14px;
+  line-height: 20px;
+  font-size: 24px;
+  background-color: #2196f3;
+  color: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-out;
+  font-family: inherit;
+}
+
+.Button:focus {
+  box-shadow: 0 0 8px 0 #1976d2;
+}
+
+.Button:hover {
+  background-color: #1976d2;
+}
+
+.Button:active {
+  background-color: #13589d;
+}

@@ -1,0 +1,16 @@
+.RulesPanel {
+  text-align: left;
+  padding: 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.RulesPanel-title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.RulesPanel-content {
+  margin: 0;
+}

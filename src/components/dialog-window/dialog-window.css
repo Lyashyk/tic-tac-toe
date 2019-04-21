@@ -1,0 +1,31 @@
+.DialogWindow {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.DialogWindow-container {
+  height: 100vh;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DialogWindow--visible {
+  display: block;
+}
+
+.DialogWindow-content {
+  position: relative;
+}
+
+.DialogWindow-iconButtom {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}

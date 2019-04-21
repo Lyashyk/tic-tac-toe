@@ -1,0 +1,30 @@
+.PlayGridApp {
+  position: relative;
+  text-align: center;
+  font-family: inherit;
+}
+
+.PlayGridApp-title {
+  margin: 0;
+  font-size: 42px;
+  margin-bottom: 48px;
+}
+
+.PlayGridApp-playerPanel {
+  margin-bottom: 16px;
+}
+
+.PlayGridApp-flexWrapper {
+  display: flex;
+  margin: -16px;
+}
+
+.PlayGridApp-playerPanelItem {
+  padding: 16px;
+}
+
+.PlayGridApp-iconButtonPanel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}

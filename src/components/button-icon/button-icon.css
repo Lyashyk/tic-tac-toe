@@ -1,0 +1,53 @@
+.ButtonIcon {
+  display: inline-block;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.2s ease-out;
+  appearance: none;
+}
+
+/* .ButtonIcon:focus {
+  box-shadow: 0 0 8px 0 #575757;
+}
+
+.ButtonIcon:hover {
+  background-color: #e3e3e3;
+} */
+
+.ButtonIcon:active {
+  background-color: #ccc;
+}
+
+.ButtonIcon-holder {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+.ButtonIcon--size-normal {
+}
+
+.ButtonIcon--size-small {
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.ButtonIcon--size-small .ButtonIcon-holder {
+  width: 16px;
+  height: 16px;
+}
+/* .ButtonIcon--size-normal {
+}
+
+.ButtonIcon--size-small {
+  padding: 6px;
+}
+
+.ButtonIcon--size-small .ButtonIcon-holder {
+  max-width: 18px;
+} */

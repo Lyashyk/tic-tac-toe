@@ -1,0 +1,10 @@
+.SummaryPanel {
+  text-align: center;
+  padding: 48px;
+  background-color: #fff;
+}
+
+.RulesPanel-title {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
