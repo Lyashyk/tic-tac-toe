@@ -2,7 +2,7 @@
   "name": "tic-tac-toe-true",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lyashyk.github.io/TicTacToe-app/",
+  "homepage": "https://lyashyk.github.io/tic-tac-toe/",
   "dependencies": {
     "@storybook/addon-knobs": "^5.0.6",
     "classnames": "^2.2.6",
