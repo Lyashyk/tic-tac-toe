@@ -31,6 +31,13 @@
 
 .PlayGrid_Button-icon {
   display: inline-block;
-  width: 64px;
-  height: 64px;
+  width: 75%;
+  height: 75%;
 }
+
+/* @media (min-width: 360px) {
+  .PlayGrid_Button-icon {
+    width: 72px;
+    height: 72px;
+  }
+} */
